@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-div{ 
+  height:100vh;
+  background-image: url("/images/backcover.svg"); 
+  background-repeat: no-repeat; 
+  background-size: contain;
+  background-position:top right;
+  border:1px solid white;
+
+}
+
+nav{
+    margin-top:30px ;
+    margin-left: 50px;
+    margin-right: 10px;
+    height:70px;
+}
+
+nav img{
+    position: relative;
+    height: 40px;
+    width: 110px;
+    
+}
+  
+  .nav-items{
+    position: relative;
+    left:30%;
+    top:-40px;
+    padding: 10px 0% 10px 30px;
+    width:600px;
+  }
+  
+  .nav-item{
+    display:inline;
+    font-size: 15px ;
+    font-family: Poppins;
+    font-weight: 700;
+    padding: 0 20px;
+    color:slateblue;
+  }
+
+  .signin-btn{
+        position: relative;
+        top:-70px;
+        left:1100px;
+        width:100px;
+        height:30px;
+        font-family:Roboto;
+        border-radius:30px;
+        border: none;
+        color: white;
+        background-image: linear-gradient(to right , blue, violet);
+  }
+
+.intro-section{
+  display: flex;
+  flex-direction: row;
+  width: 1300px;
+  height:83vh;
+  margin-left: 50px;
+  margin-top: 0px;
+
+}
+
+.left-section{
+  width: 600px;
+}
+
+.left-section h1{
+  font-size: 80px;
+  text-align: center;
+  margin-top: 100px;
+  color:blueviolet
+}
+
+.left-section h4{
+  font-family: Roboto;
+  font-size: 15px;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 130px;
+  color:darkslategrey;
+  width:300px;
+  height:100px;
+  line-height: 1.5;
+}
+
+.learn-more-btn{
+  font-family:Roboto;
+  font-size: 18px;
+  border-radius:30px;
+  padding: 7px 30px;
+  margin-top: 20px;
+  margin-left: 150px;
+  border: none;
+  color: white;
+  background-image: linear-gradient(to right , blue, violet);
+}
+
+.imgs-div{
+  position: relative;
+  width: 700px;
+}
+
+.vector-dot{
+  position: absolute;
+  top:350px;
+  left:60px;
+
+}
+
+.vector-img{
+  position: absolute;
+  top:350px;
+}
+
+
+.imgs-div img[alt="intro-img"]{
+  margin-top:10px;
+  margin-left: -10px;
+  height:80vh;
+  width:700px;
+}
