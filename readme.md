@@ -31,7 +31,10 @@ it fully responsive for mobile and desktop view.
 
 **Previews**
 
-![screenshot](../Screenshots/Screenshot.png)
+![screenshot](Screenshots/Screenshot1.jpeg)
+
+
+
 
 
 
